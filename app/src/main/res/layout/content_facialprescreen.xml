@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="28dp"
+        android:orientation="vertical"
+        android:background="@android:color/white">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp" >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="James, you have chosen to add your picture for facial identification."
+                android:gravity="center_horizontal"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+              />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_column="0"
+                android:layout_gravity="fill_horizontal"
+                android:layout_row="0" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Please touch Start and then look at your phone camera.  Hold steady."
+                android:gravity="center_horizontal"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_column="0"
+                android:layout_gravity="fill_horizontal"
+                android:layout_row="0" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="I will let you know I am done"
+                android:gravity="center_horizontal"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_column="0"
+                android:layout_gravity="fill_horizontal"
+                android:layout_row="0" />
+
+        </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_startfacial"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_dark"
+        android:color="#1a237e"
+        android:layout_gravity="center_horizontal"
+        android:text="Start" />
+</LinearLayout>

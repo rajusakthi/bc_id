@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="28dp"
+        android:orientation="vertical"
+        android:background="@android:color/white">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp" >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Great James! Please let me know if you want to add more identification details or continue to let me create a blockchain ID for you."
+                android:gravity="center_horizontal"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+              />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_column="0"
+                android:layout_gravity="fill_horizontal"
+                android:layout_row="0" />
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:weightSum="1">
+                <Button
+                    android:textColor="@android:color/holo_blue_dark"
+                    android:background="@android:color/white"
+                    android:layout_width="0dp"
+                    android:id="@+id/btn_moreinfoback"
+                    android:layout_weight="0.5"
+                    android:layout_height="50dp"
+                    android:text="More Info"
+                    android:layout_gravity="center"
+                    android:onClick="onClick"/>
+
+                <Button
+                    android:id="@+id/btn_moreinfonext"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.5"
+                    android:background="@android:color/white"
+                    android:onClick="onClick"
+                    android:text="> Next"
+                    android:textColor="@android:color/holo_blue_dark" />
+            </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

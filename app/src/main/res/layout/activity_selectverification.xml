@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ConfirmActivity"
+    tools:showIn="@layout/activity_selectverification">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="15dp"
+        android:orientation="vertical"
+        android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="James, please share more details or continue. You can add later when you want to."
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <Button
+            android:id="@+id/btn_driverlicence"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:background="@android:color/white"
+            android:text="Driver License >"
+            android:textColor="@android:color/black" />
+
+
+        <Button
+            android:id="@+id/btn_facial"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:background="@android:color/white"
+            android:text="Facial ID >"
+            android:textColor="@android:color/black" />
+
+
+        <Button
+            android:id="@+id/btn_finger"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:background="@android:color/white"
+            android:text="Finger print >"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/btn_voice"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:background="@android:color/white"
+            android:text="Voice print >"
+            android:textColor="@android:color/black" />
+
+
+        <Button
+            android:id="@+id/btn_retina"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:background="@android:color/white"
+            android:text="Retina Scan >"
+            android:textColor="@android:color/black" />
+
+
+        <Button
+            android:id="@+id/btn_ssn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:background="@android:color/white"
+            android:text="Social Security Number >"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/btn_military"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:background="@android:color/white"
+            android:text="Military ID >"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/btn_passport"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:background="@android:color/white"
+            android:text="Passport Number >"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/btn_dob"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:background="@android:color/white"
+            android:text="Date of Birth >"
+            android:textColor="@android:color/black" />
+        <Button
+            android:id="@+id/btn_immediatefamily"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:background="@android:color/white"
+            android:text="Immediate Family >"
+            android:textColor="@android:color/black" />
+
+    </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

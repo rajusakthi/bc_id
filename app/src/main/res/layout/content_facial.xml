@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="28dp"
+        android:orientation="vertical"
+        android:background="@android:color/white">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp" >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="James, Your face print is ready to be associated with\n your blockchain ID"
+                android:gravity="center_horizontal"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+              />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_column="0"
+                android:layout_gravity="fill_horizontal"
+                android:layout_row="0" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="I am confident that I can accurately identify your face 94% of the time"
+                android:gravity="center_horizontal"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_column="0"
+                android:layout_gravity="fill_horizontal"
+                android:layout_row="0" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Continue to set your preferences on how you want to share your face print"
+                android:gravity="center_horizontal"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_column="0"
+                android:layout_gravity="fill_horizontal"
+                android:layout_row="0" />
+            <Button
+                android:id="@+id/btn_facialnext"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:onClick="onClick"
+                android:text=">Next"
+                android:textColor="@android:color/holo_blue_dark" />
+        </LinearLayout>
+    </LinearLayout>

@@ -1,0 +1,118 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/mainMenu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_column="0"
+                    android:layout_gravity="fill_horizontal"
+                    android:layout_row="0" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal"
+                    android:text="James, you have chosen for finger print identification."
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_column="0"
+                    android:layout_gravity="fill_horizontal"
+                    android:layout_row="0" />
+
+                <ImageView
+                    android:id="@+id/icon"
+                    android:layout_width="550dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/ic_action_fingerprint" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_column="0"
+                    android:layout_gravity="fill_horizontal"
+                    android:layout_row="0" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal"
+                    android:text="Please click Start button and then touch the finger print sensor."
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_column="0"
+                    android:layout_gravity="fill_horizontal"
+                    android:layout_row="0" />
+
+                <Button
+                    android:id="@+id/identify"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Start" />
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_column="0"
+                    android:layout_gravity="fill_horizontal"
+                    android:layout_row="0" />
+
+                <TextView
+                    android:id="@+id/btn_fingerprintsucess"
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal"
+                    android:text="Identify authentification Success with Fingerprint"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_column="0"
+                    android:layout_gravity="fill_horizontal"
+                    android:layout_row="0" />
+
+                <Button
+                    android:id="@+id/btn_fingernext"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@android:color/white"
+                    android:onClick="onClick"
+                    android:text="> Next"
+                    android:textColor="@android:color/holo_blue_dark" />
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+  </LinearLayout>

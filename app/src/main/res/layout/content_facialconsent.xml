@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="10dp"
+        android:orientation="vertical"
+        android:background="@android:color/white">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:text="James, you can choose how and when you want to share your face print for verification purposes."
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:layout_column="0"
+                android:layout_gravity="fill_horizontal"
+                android:layout_row="0" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp">
+
+            <android.support.v7.widget.SwitchCompat
+                android:id="@+id/switchButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Write to Blockchain   "
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:layout_column="0"
+                android:layout_gravity="fill_horizontal"
+                android:layout_row="0" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:background="#D3D3D3"
+                android:text="Write to Blockchain ON means your face print is securely stored outside your phone in a blockchain along with other personal details you have shared.Recommended for faster public \nidentification, such as to a traffic cop or alcohol purchase, etc.
+Write to Blockchain OFF means your face print is stored in your wallet and checked as needed. This will make your identification process slower."
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_facialconsentnext"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:onClick="onClick"
+                android:text=">Next"
+                android:textColor="@android:color/holo_blue_dark" />
+        </LinearLayout>
+    </LinearLayout>
